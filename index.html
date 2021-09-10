@@ -2,7 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="mystyle.css">
     <title>CSS Basics</title>
+    <style media="screen">
+      /* CSS comments look like this.
+         You can use them to take notes right inline
+      */
+      body {
+        color: purple;
+      }
+      selector {style-type: value;}
+
+      selector {
+                style-type: value;
+                style-type: value;
+                style-type: value;
+      }
+      p.dotted {border-style: dotted;
+                border-width: thick;}
+    </style>
   </head>
   <body>
     <h1>My CSS stylesheet</h1>
@@ -11,5 +29,12 @@
 
     <a href="https://github.com/peachy-bit/portfolio/blob/63ca2aae040f4a1662e31cc90aea1a601cc002f5/index.html">Portfolio Website</a>
     <a href="https://www.w3schools.com/colors/colors_names.asp">Pick a Color!</a>
+    <br>
+    <br>
+    <img class="p.dotted" src="img_0031.jpg" alt="Princess the Dalmatian" width="100" height="120">
+    <br>
+    <br>
+    <img p.class="dotted" src="img_1709.jpg" alt="Leia the Labrador" width="100" height="120" >
+    <p class="dotted">A dotted border.</p>
   </body>
 </html>
