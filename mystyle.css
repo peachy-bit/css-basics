@@ -1,3 +1,9 @@
+/* Asterisk selector means "everything". Put at the top of CSS-all sizing rules will apply to the content, padding, and border. Margin will still be outside.
+*/
+* {
+  box-sizing:border-box;
+}
+
 body {
   background-color: lightblue;
 }
