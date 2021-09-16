@@ -9,7 +9,7 @@
          You can use them to take notes right inline
          */
          h1{
-           color:red;
+           color:hsla(240, 100%, 100%, .5);
          }
          p{
            color: red;
@@ -18,28 +18,58 @@
          body {
            background-color: Dodgerblue;
          }
+         .purple-text {
+           color: rgba(0, 0, 255, .5);
+         }
+         .important {
+           font-weight: bold;
+         }
+         #lead-paragraph {
+           color: purple;
+           font-weight: bold;
+         }
+         .important:hover {
+           background-color: #0000FF;
+         }
+         a[href="https://imagecomics.com/"] {
+           background-color: orange;
+           padding: 1rem;
+         }
+         a[href="https://storm.wnba.com/"] {
+           background-color: blue;
+         }
+         h1 {
+           color: red;
+           border-style: solid;
+           border-width: 1px;
+           border-color: red;
+         }
+         p.important {
+           width: 75%;
+         }
+         img {
+           border-style: dashed;
+           border-color: orange;
+           border-width: 3px;
+           width: 25%;
+        }
 
-              img {border:2px dashed orange;
-                width: 25%;
-              }
 
-              p.dotted {border-style: dotted;
-                  border-width: thick;}
       </style>
   </head>
   <body>
     <h1>Welcome</h1>
-    <p>Everything is fine.</p>
-    <p>Another paragraph about stylesheets.</p>
+    <p class="purple-text">Everything is fine!</p>
+    <p class="important purple-text">No really, the world is not filled with hopelessness and despair, I promise.</p>
+    <p id="lead-paragraph">The world is a happy and sensible place.</p>
 
-    <a href="https://github.com/peachy-bit/portfolio/blob/63ca2aae040f4a1662e31cc90aea1a601cc002f5/index.html">Portfolio Website</a>
-    <a href="https://www.w3schools.com/colors/colors_names.asp">Pick a Color!</a>
+    <a href="http://storm.wnba.com/">National WNBA Champions, Seattle Storms</a>
+    <a href="https://imagecomics.com/">Check out some awesome independent comics</a>
     <br>
     <br>
-    <img class="p.dotted" src="img_0031.jpg" alt="Princess the Dalmatian" width="100" height="250">
+    <img src="img_0031.jpg" alt="Princess the Dalmatian">
     <br>
     <br>
-    <img class="p.dotted" src="img_1709.jpg" alt="Leia the Labrador" width="100" height="250" >
-    <p class="dotted">A dotted border.</p>
+    <img src="img_1709.jpg" alt="Leia the Labrador">
   </body>
 </html>
